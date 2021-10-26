@@ -116,7 +116,7 @@ app.post('/shorten', async request => {
   //Create Random UID
   let slug = nanoid()
 
-  // Add To KV Store, expires in 24 hours
+  // Add To KV Store, expires in 1 hour
   await fupi.put(slug, url, { expirationTtl: 3600 })
 
   let shortenedUrl = `${origin}/${slug}`
