@@ -1,8 +1,12 @@
 name = "fupi"
-type = "javascript"
+type = "webpack"
 
 account_id = ""
 workers_dev = true
 route = ""
 zone_id = ""
 compatibility_date = "2021-10-25"
+
+kv_namespaces = [
+    { binding = "fupi", preview_id = "", id = "" }
+]
