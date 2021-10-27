@@ -1,6 +1,6 @@
 # fupi
 
-A minimal url shortener made with cloudflare workers.
+A minimal url shortener made with cloudflare workers & workers KV.
 
 No Javascript required on frontend.
 
