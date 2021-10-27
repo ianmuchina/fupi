@@ -4,9 +4,7 @@ A minimal url shortener made with cloudflare workers & workers KV.
 
 No Javascript required on frontend.
 
-[demo](https://fupi.muchina.workers.dev/)
-
-Links expire after one hour. 
+[Demo](https://fupi.muchina.workers.dev/) (Links expire in 1 hour). 
 
 ## Setup 
 
